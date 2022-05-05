@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zack Greenfields Awesome Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="page-title">
+           <h1>Code Quiz</h1>
+        </div>
+        <div class="timer">
+            <h4>Current Time: <span id="time">30</span></h4>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="container">
+            <h2>Try your luck with this code quiz</h2>
+            <p>You have 30 seconds on the clock</p>
+            <p>Any incorrect answer takes 10 seconds off the clock</p>
+            <button id="start-quiz">Start Quiz</button>
+        </div>
+        
+        <!-- Credit to https://www.sitepoint.com/simple-javascript-quiz/ -->
+        <div class="hide" id="quiz"></div>
+        
+        <div id="final-results"></div>
+        <!-- End of credit -->
+    </main>
+
+
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
